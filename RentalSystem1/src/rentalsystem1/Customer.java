@@ -1,4 +1,4 @@
-package com.espol.rentalsystemtest;
+package rentalsystem1;
 
 import java.util.*;
 
@@ -17,6 +17,15 @@ class Customer {
         _movieRentals.add(arg);
     }
 
+    public ArrayList<MovieRental> getMovieRentals() {
+        return _movieRentals;
+    }
+
+    public ArrayList<VideoGameRental> getVideoGameRental() {
+        return _videoGameRental;
+    }
+    
+    
     public void addVideoGameRental(VideoGameRental arg) {
         _videoGameRental.add(arg);
     }
